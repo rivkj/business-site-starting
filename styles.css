@@ -1,0 +1,37 @@
+html {
+  font-family: 'Segoe UI', Verdana, sans-serif;
+  color: #000;
+}
+
+body {
+  width: 95%;
+  margin: auto;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  padding-top: 30px;
+}
+
+nav {
+  flex: 1;
+  padding-top: 60px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: inline;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
