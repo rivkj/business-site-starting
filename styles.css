@@ -94,7 +94,10 @@ td {
 }
 
 /* Email List */
-
+.email-list {
+  text-align: center;
+  padding: 6rem;
+}
 
 
 /* Footer */
@@ -113,7 +116,7 @@ footer {
 .fa {
   padding: 25px;
   font-size: 30px;
-  width: 40px;
+  width: 30px;
   text-align: center;
   text-decoration: none;
 }
