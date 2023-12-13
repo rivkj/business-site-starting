@@ -1,5 +1,6 @@
 html {
-  font-family: 'Segoe UI', Verdana, sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
   color: #000;
 }
 
@@ -35,3 +36,64 @@ li a {
   margin-right: 30px;
 }
 
+/* Main */
+
+.banner-img {
+  padding-top: 1rem;
+}
+
+h2 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+/* About NJC */
+
+article h2 {
+  border-bottom: 1px solid #000;
+}
+
+.about-us {
+  margin: 2rem 12rem;
+  padding: 4rem;
+}
+
+.about-njc {
+  padding-bottom: 2rem;
+  line-height: 4rem;
+}
+
+/* Locations */
+
+.locations {
+  margin: 2rem 8rem;
+}
+
+table {
+  border-spacing: 30px;
+  width: 100%;
+}
+
+th {
+  border-bottom: 1px solid #000;
+  margin: 10px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+td {
+  height: 60px;
+}
+
+/* Email List */
+
+
+
+/* Footer */
+
+footer {
+  bottom: 0;
+  padding: 1.5rem;
+  width: 100%;
+}
