@@ -4,7 +4,7 @@ html {
   color: #000;
 }
 
-body {
+main {
   width: 95%;
   margin: auto;
 }
@@ -39,7 +39,7 @@ li a {
 }
 
 nav a:hover {
-  background-color: rgb(213, 195, 104);
+  background-color: #d5c368;
   color: #fff;
 }
 
@@ -47,6 +47,8 @@ nav a:hover {
 
 .banner-img {
   padding-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2 {
@@ -77,19 +79,19 @@ article h2 {
   margin: 2rem 8rem;
 }
 
-table {
+.location-table {
   border-spacing: 30px;
   width: 100%;
 }
 
-th {
+.location-name th {
   border-bottom: 1px solid #000;
   margin: 10px;
   padding-bottom: 20px;
   text-transform: uppercase;
 }
 
-td {
+.location-weekend-hours td {
   height: 60px;
 }
 
@@ -138,10 +140,44 @@ footer {
 
 /* Menu */
 
-.njc-drink-menu {
-  float: right;
+.menu-main {
+  width: 100%;
 }
 
-.njc-drinks li {
-  text-align: left;
+#menu-availability {
+  margin-left: 3rem;
+  padding-bottom: 3rem;
+}
+
+.njc-drinks {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.coffee-cup {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.drink-table {
+  width: 70%;
+}
+
+.drink-title, .drink-table td {
+  height: 60px;
+}
+
+
+#local-source {
+  background-color: #d5c368;
+  margin: 8rem auto;
+  padding: 20rem;
+} 
+
+#local-source p {
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  margin
 }
