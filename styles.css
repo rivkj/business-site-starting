@@ -26,7 +26,7 @@ ul {
   text-align: right;
 }
 
-li {
+nav li, footer li {
   float: right;
 }
 
@@ -133,4 +133,15 @@ footer {
 .fa-instagram {
   background: #000;
   color: white;
+}
+
+
+/* Menu */
+
+.njc-drink-menu {
+  float: right;
+}
+
+.njc-drinks li {
+  text-align: left;
 }
