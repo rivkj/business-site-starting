@@ -32,6 +32,7 @@ nav li, footer li {
 
 li a {
   border-radius: 15%;
+  color: #000;
   display: inline;
   text-decoration: none;
   margin-right: 30px;
@@ -168,9 +169,14 @@ footer {
   height: 60px;
 }
 
+.drink-title {
+  color:#d5c368;
+}
+
+/* Food menu section */
 
 #local-source {
-  background-color: #d5c368;
+  background-color: #bead5a;
   margin: 8rem auto;
   padding: 20rem;
 } 
@@ -180,3 +186,18 @@ footer {
   text-align: center;
   width: 100%;
 }
+
+.breakfast-menu {
+  text-align: center;
+}
+
+.breakfast-title, .toast-title {
+  color:#bead5a;
+}
+
+ small {
+  border-radius: 10px;
+  border-style: 1px solid black;
+  margin: 0 4px; 
+  padding: 2px 6px;
+ }
