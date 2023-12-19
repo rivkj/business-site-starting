@@ -178,7 +178,6 @@ footer li {
 .njc-drink-menu {
   flex: 40%;
   margin: auto 0 auto 4rem;
-  /* padding-left: 2rem; */
 }
 
 .drink-table {
@@ -246,11 +245,6 @@ h4 {
 @media screen and (max-width: 1300px) {
   nav {
     flex-direction: column;
-  }
-
-  .njc-drink-menu {
-    flex-direction: column;
-    
   }
 }
 
