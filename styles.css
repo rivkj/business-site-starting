@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 20px;
@@ -30,7 +34,7 @@ nav li, footer li {
   float: right;
 }
 
-li a {
+nav li a {
   border-radius: 15%;
   color: #000;
   display: inline;
@@ -47,9 +51,11 @@ nav a:hover {
 /* Main */
 
 .banner-img {
+  overflow: hidden;
   padding-top: 1rem;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
 }
 
 h2 {
@@ -111,20 +117,25 @@ footer {
   width: 100%;
 }
 
+footer li {
+  margin-left: 1rem;
+}
+
 .socials {
   padding: 10px;
 }
 
-
 .fa {
-  padding: 25px;
+  border-radius: 10px;
   font-size: 30px;
-  width: 30px;
+  padding: 25px;
+  width: 100%;
   text-align: center;
   text-decoration: none;
 }
 
 .fa:hover {
+  background-color: #808080;
   opacity: 0.7;
 }
 
@@ -139,7 +150,7 @@ footer {
 }
 
 
-/* Menu */
+/* Menu Page */
 
 .menu-main {
   width: 100%;
@@ -150,22 +161,35 @@ footer {
   padding-bottom: 3rem;
 }
 
-.njc-drinks {
-  display: grid;
-  grid-template-columns: auto auto;
+.coffee-cup {
+  padding-left: 4rem;
+  width: 85%;
 }
 
-.coffee-cup {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.njc-drinks {
+  display: flex;
+  margin: 0 auto;
+}
+
+.menu-drink {
+  flex: 60%;
+}
+
+.njc-drink-menu {
+  flex: 40%;
+  margin: auto 0 auto 4rem;
+  /* padding-left: 2rem; */
 }
 
 .drink-table {
-  width: 70%;
+  width: 90%;
 }
 
-.drink-title, .drink-table td {
+.drink-table td {
+  padding: 20px;
+}
+
+.drink-title, .drink-table {
   height: 60px;
 }
 
@@ -174,6 +198,9 @@ footer {
 }
 
 /* Food menu section */
+h4 {
+  padding-top: 1.5rem;
+}
 
 #local-source {
   background-color: #bead5a;
@@ -195,16 +222,35 @@ footer {
   color:#bead5a;
 }
 
+.toast-title {
+  padding-top: 3rem;
+}
+
 .food-allergy {
   border-radius: 10px;
-  border-style: 1px solid #000;
-  margin: 0 4px; 
-  padding: 2px 6px;
- }
-
-@media screen and (max-width: 1500px) {
-.coffee-cup {
-  width: 1400px;
+  border: 1px solid #000;
+  margin: 4px 4px; 
+  padding: 3px 6px;
 }
+
+@media screen and (max-width: 1600px) {
+  .njc-drink-menu {
+    flex-wrap: wrap;
+  }
+
+  .menu-drink, .njc-drink-menu {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .njc-drink-menu {
+    flex-direction: column;
+    
+  }
 }
 
