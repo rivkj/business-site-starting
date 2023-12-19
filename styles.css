@@ -237,8 +237,16 @@ h4 {
     flex-wrap: wrap;
   }
 
-  .menu-drink, .njc-drink-menu {
+  .njc-drinks {
     flex-direction: column;
+  }
+
+  .drink-table {
+    margin: auto;
+  }
+
+  .drink-title {
+    padding-top: 2.5rem;
   }
 }
 
