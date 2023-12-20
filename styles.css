@@ -242,8 +242,8 @@ h4 {
   nav ul {
     margin: 0;
     padding: 0;
-    width: 200px;
-  }
+    max-width: 100%;
+  } 
 
   nav li a {
     display: block;
@@ -267,14 +267,6 @@ h4 {
   .drink-title {
     padding-top: 2.5rem;
   }
-}
-
-@media screen and (max-width: 1200px) {
-  nav {
-    padding-right: 25px;
-  }
-
-
 }
 
 @media screen and (max-width: 800px) {
