@@ -15,3 +15,5 @@ Fonts from the Google Fonts API.
 Custom images.
 
 Rendition: A company home page and menu page was done to replicate a coffee shop's home page. Links and additional styling was added to complete the page. Only missing elements that can be added at a different date are a form to receive email information and a contact page that holds the form and additional information.
+
+![Screenshot of landing page](image-1.png)
