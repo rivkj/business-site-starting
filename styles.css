@@ -88,7 +88,8 @@ article h2 {
 
 .location-table {
   border-spacing: 30px;
-  width: 100%;
+  width: 85%;
+  margin: auto;
 }
 
 .location-name th {
@@ -98,8 +99,12 @@ article h2 {
   text-transform: uppercase;
 }
 
+.location-table td {
+  padding-left: 2.5rem;
+}
+
 .location-weekend-hours td {
-  height: 60px;
+  height: 50px;
 }
 
 /* Email List */
@@ -233,6 +238,20 @@ h4 {
 }
 
 @media screen and (max-width: 1600px) {
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+  }
+
+  nav li a {
+    display: block;
+    float: right;
+    padding: 8px 16px;
+    text-align: right;
+  }
+
   .njc-drink-menu {
     flex-wrap: wrap;
   }
@@ -250,9 +269,18 @@ h4 {
   }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1200px) {
   nav {
-    flex-direction: column;
+    padding-right: 25px;
+  }
+
+
+}
+
+@media screen and (max-width: 800px) {
+  .about-us {
+    margin: 0;
+    width: 100%;
   }
 }
 
